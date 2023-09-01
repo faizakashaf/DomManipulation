@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interactive Quiz Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1 class="title">Quiz Game</h1>
+            <button id="startButton" class="choice">Start Game</button>
+            <div id="questionContainer" style="display: none;">
+                <p id="question">Question goes here</p>
+                <ul id="choices">
+                    <li><button class="choice">Choice 1</button></li>
+                    <li><button class="choice">Choice 2</button></li>
+                    <li><button class="choice">Choice 3</button></li>
+                    <li><button class="choice">Choice 4</button></li>
+                </ul>
+            </div>
+            <div id="scoreContainer">
+                <p>Score: <span id="score">0</span></p>
+                <p>Question: <span id="questionNumber">1</span> / <span id="totalQuestions">5</span></p>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

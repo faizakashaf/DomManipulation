@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(180deg, #ffebcd, #fff8dc);
+}
+
+.container {
+    text-align: center;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+ul#choices {
+    list-style: none;
+    padding: 0;
+    text-align: center; /* Center-align the choices */
+}
+
+
+.title {
+    text-align: center;
+}
+
+button.choice {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50; /* Dark green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    width: 100%;
+}
+button.choice:hover {
+    background-color: #45a049; /* Light green on hover */
+}
+
+/* Update the background color for the choices buttons */
+button.choice.light-green {
+    background-color: #6FCF97; /* Light green */
+}
+
+button.choice#startButton {
+    background-color: #4CAF50; /* Dark green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+    width: 100%;
+}
+
+#scoreContainer {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+p {
+    margin: 0;
+}
